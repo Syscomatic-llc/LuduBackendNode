@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "60ede3f361589d3922fc8433"
+  },
+  "document_number": "123123",
+  "first_name": "123123",
+  "last_name": "123123",
+  "dob": "123123",
+  "document_image": "http://192.168.3.90:16000/kycPhotos/401479554612.png",
+  "document_type": "VoterCard",
+  "verification_status": "0",
+  "userid": "401479554612",
+  "created_at": "Tuesday July 13th 2021 12:05:23 PM"
+}]

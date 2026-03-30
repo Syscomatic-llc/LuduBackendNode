@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "60c552e1b5770000b4003a42"
+  },
+  "migration": "2014_10_12_000000_create_users_table",
+  "batch": 1
+},{
+  "_id": {
+    "$oid": "60c552e1b5770000b4003a43"
+  },
+  "migration": "2014_10_12_100000_create_password_resets_table",
+  "batch": 1
+},{
+  "_id": {
+    "$oid": "60c552e1b5770000b4003a44"
+  },
+  "migration": "2019_08_19_000000_create_failed_jobs_table",
+  "batch": 1
+},{
+  "_id": {
+    "$oid": "60c5633c8d39000036005482"
+  },
+  "migration": "2021_03_09_074813_create_admins_table",
+  "batch": 2
+},{
+  "_id": {
+    "$oid": "60c58feceb710000200001f2"
+  },
+  "migration": "2021_06_09_035535_create_faqs_table",
+  "batch": 3
+},{
+  "_id": {
+    "$oid": "60c6d78f1b56000093003082"
+  },
+  "migration": "2021_06_14_040322_create_specials_table",
+  "batch": 4
+},{
+  "_id": {
+    "$oid": "60c6f3a4945300004b002792"
+  },
+  "migration": "2021_06_14_051935_create_kycdetails_table",
+  "batch": 5
+},{
+  "_id": {
+    "$oid": "60c72bdb6f0800000b0007b2"
+  },
+  "migration": "2021_06_14_070353_create_shopcoins_table",
+  "batch": 6
+},{
+  "_id": {
+    "$oid": "60c72bdb6f0800000b0007b3"
+  },
+  "migration": "2021_06_14_100930_create_bids_table",
+  "batch": 6
+},{
+  "_id": {
+    "$oid": "60c737b1db060000fd000da2"
+  },
+  "migration": "2021_06_14_105032_create_transactions_table",
+  "batch": 7
+},{
+  "_id": {
+    "$oid": "60c7604b4e1f00002f001d82"
+  },
+  "migration": "2021_06_14_125839_create_withdraws_table",
+  "batch": 8
+},{
+  "_id": {
+    "$oid": "60cb732a645e000074001142"
+  },
+  "migration": "2021_06_16_021015_create_websettings_table",
+  "batch": 9
+}]

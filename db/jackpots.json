@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "60fa8b1d2e000000ed007e52"
+  },
+  "jackpot_entry": "600",
+  "number_of_game": "3",
+  "updated_at": {
+    "$date": "2021-07-23T09:28:42.401Z"
+  },
+  "created_at": {
+    "$date": "2021-07-23T09:25:49.008Z"
+  }
+},{
+  "_id": {
+    "$oid": "60fa8b582e000000ed007e53"
+  },
+  "jackpot_entry": "400",
+  "number_of_game": "1",
+  "updated_at": {
+    "$date": "2021-07-23T09:28:33.409Z"
+  },
+  "created_at": {
+    "$date": "2021-07-23T09:26:48.417Z"
+  }
+}]

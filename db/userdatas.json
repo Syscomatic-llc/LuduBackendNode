@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "60f2af8d1bf0571314ae1193"
+  },
+  "username": "chandan",
+  "userid": "303662310053",
+  "userphone": "1111111111",
+  "useremail": "chandan@gmail.com",
+  "password": "123123",
+  "photo": "",
+  "points": 100,
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Saturday July 17th 2021 10:23:09 AM",
+  "spin_date": {
+    "$date": "2021-07-17T10:23:09.419Z"
+  },
+  "dailyReward_date": {
+    "$date": "2021-07-17T10:23:09.419Z"
+  },
+  "referral_code": "149668",
+  "connect": "-288aYNi8QIoz9QxAAAT",
+  "winning_amount": 0,
+  "status": 1,
+  "banned": 1,
+  "kyc_status": 0,
+  "device_token": "eGk_P0YNQ2a4K04dsziqn9:APA91bFvqZMXU3ce7Kizp_odX5TKw_tuhpLLLhTFx855I65XIgsyTOhzni-qZRthPtds1bXbm8fwSLo-J4eGTYjfyuxAUQju6N0zaVMriHTTaSNfojB3_vInjcaaaP8lzM_H8N7FIRzj",
+  "used_refer_code": ""
+}]

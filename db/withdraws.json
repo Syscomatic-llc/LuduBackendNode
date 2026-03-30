@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "60cad1859ca1b3d2cebaa3a4"
+  },
+  "userid": "641913595334",
+  "amount": "500",
+  "payment_method": "Bank",
+  "wallet_number": "123123",
+  "bank_name": "",
+  "account_number": "",
+  "ifsc_code": "",
+  "withdraw_status": "0",
+  "created_at": {
+    "$date": "2021-06-17T04:37:25.190Z"
+  }
+},{
+  "_id": {
+    "$oid": "60d5857bfc45b0c578283975"
+  },
+  "userid": "641913595334",
+  "amount": "123",
+  "payment_method": "Paytm",
+  "wallet_number": "123123",
+  "bank_name": "123123",
+  "account_number": "123123",
+  "ifsc_code": "123123",
+  "withdraw_status": "0",
+  "created_at": {
+    "$date": "2021-06-25T07:27:55.118Z"
+  }
+},{
+  "_id": {
+    "$oid": "60d58590fc45b0c578283976"
+  },
+  "userid": "641913595334",
+  "amount": "123",
+  "payment_method": "GooglePay",
+  "wallet_number": "123",
+  "bank_name": "123123",
+  "account_number": "123123",
+  "ifsc_code": "123123",
+  "withdraw_status": "1",
+  "created_at": {
+    "$date": "2021-06-25T07:28:16.501Z"
+  }
+},{
+  "_id": {
+    "$oid": "60d585aafc45b0c578283977"
+  },
+  "userid": "641913595334",
+  "amount": "123",
+  "payment_method": "PhonePe",
+  "wallet_number": "123123",
+  "bank_name": "123123",
+  "account_number": "123123",
+  "ifsc_code": "123123",
+  "withdraw_status": "2",
+  "created_at": {
+    "$date": "2021-06-25T07:28:42.471Z"
+  }
+},{
+  "_id": {
+    "$oid": "60f03046f8c5c80928ae7dd8"
+  },
+  "userid": "143474749836",
+  "amount": "200",
+  "payment_method": "Paytm",
+  "wallet_number": "9875362732",
+  "bank_name": "",
+  "account_number": "",
+  "ifsc_code": "",
+  "withdraw_status": "0",
+  "created_at": "Thursday July 15th 2021 12:55:34 PM"
+},{
+  "_id": {
+    "$oid": "60f0305af8c5c80928ae7dd9"
+  },
+  "userid": "143474749836",
+  "amount": "200",
+  "payment_method": "Paytm",
+  "wallet_number": "9875362732",
+  "bank_name": "",
+  "account_number": "",
+  "ifsc_code": "",
+  "withdraw_status": "0",
+  "created_at": "Thursday July 15th 2021 12:55:54 PM"
+},{
+  "_id": {
+    "$oid": "60f0306cf8c5c80928ae7dda"
+  },
+  "userid": "143474749836",
+  "amount": "1500",
+  "payment_method": "Paytm",
+  "wallet_number": "9875362732",
+  "bank_name": "",
+  "account_number": "",
+  "ifsc_code": "",
+  "withdraw_status": "0",
+  "created_at": "Thursday July 15th 2021 12:56:12 PM"
+}]

@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "60f7dea4f36100008a002d82"
+  },
+  "title": "1 VS 1",
+  "bit_amount": "50",
+  "tournament_interval": "1",
+  "no_of_player": "2",
+  "two_player_winning": "80",
+  "no_of_winner": null,
+  "four_player_winning_1": null,
+  "four_player_winning_2": null,
+  "four_player_winning_3": null,
+  "updated_at": {
+    "$date": "2021-07-21T08:45:24.535Z"
+  },
+  "created_at": {
+    "$date": "2021-07-21T08:45:24.535Z"
+  }
+},{
+  "_id": {
+    "$oid": "60f7f23ff36100008a002d83"
+  },
+  "title": "1 VS 4",
+  "bit_amount": "100",
+  "tournament_interval": "4",
+  "no_of_player": "4",
+  "two_player_winning": null,
+  "no_of_winner": "2",
+  "four_player_winning_1": "200",
+  "four_player_winning_2": "100",
+  "four_player_winning_3": null,
+  "updated_at": {
+    "$date": "2021-07-21T10:09:03.035Z"
+  },
+  "created_at": {
+    "$date": "2021-07-21T10:09:03.035Z"
+  }
+},{
+  "_id": {
+    "$oid": "6102b676093a0000670006b7"
+  },
+  "title": "this is tourname name like 2 Wineer",
+  "bit_amount": "50",
+  "tournament_interval": "1",
+  "no_of_player": "4",
+  "two_player_winning": "90",
+  "no_of_winner": "3",
+  "four_player_winning_1": "100",
+  "four_player_winning_2": "40",
+  "four_player_winning_3": "20",
+  "updated_at": {
+    "$date": "2021-07-29T14:08:54.770Z"
+  },
+  "created_at": {
+    "$date": "2021-07-29T14:08:54.770Z"
+  }
+}]

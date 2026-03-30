@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "60dd16439ff3df0f504b540c"
+  },
+  "userid": "641913595334",
+  "username": "isop",
+  "creater": "isop",
+  "seat_limit": "2",
+  "game_mode": "classic",
+  "stake_money": 50,
+  "game_status": "win",
+  "win_money": 55,
+  "playing_time": "Thursday July 1st 2021 1:11:31 AM"
+},{
+  "_id": {
+    "$oid": "60ddc86aff6ade1140d64926"
+  },
+  "userid": "281575780706",
+  "username": "kainmr",
+  "creater": "kainmr",
+  "seat_limit": "2",
+  "game_mode": "classic",
+  "stake_money": 50,
+  "game_status": "loss",
+  "win_money": 0,
+  "playing_time": "Thursday July 1st 2021 1:51:38 PM"
+},{
+  "_id": {
+    "$oid": "60e01414ff6ade1140d64928"
+  },
+  "userid": "281575780706",
+  "username": "kainmr",
+  "creater": "kainmr",
+  "seat_limit": "2",
+  "game_mode": "classic",
+  "stake_money": 50,
+  "game_status": "loss",
+  "win_money": 0,
+  "playing_time": "Saturday July 3rd 2021 7:39:00 AM"
+},{
+  "_id": {
+    "$oid": "60e1951eff6ade1140d64929"
+  },
+  "userid": "641913595334",
+  "username": "isop",
+  "creater": "",
+  "seat_limit": "3",
+  "game_mode": "arrow",
+  "stake_money": 0,
+  "game_status": "loss",
+  "win_money": 0,
+  "playing_time": "Sunday July 4th 2021 11:01:50 AM"
+},{
+  "_id": {
+    "$oid": "60ed5d0cff6ade1140d6494e"
+  },
+  "userid": null,
+  "username": "hhhhh",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Tuesday July 13th 2021 9:29:48 AM"
+},{
+  "_id": {
+    "$oid": "60f01444f8c5c80928ae7dc5"
+  },
+  "userid": null,
+  "username": "kundan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 10:56:04 AM"
+},{
+  "_id": {
+    "$oid": "60f0146ef8c5c80928ae7dc8"
+  },
+  "userid": null,
+  "username": "chandan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 10:56:46 AM"
+},{
+  "_id": {
+    "$oid": "60f014fdf8c5c80928ae7dca"
+  },
+  "userid": null,
+  "username": "chandan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 10:59:09 AM"
+},{
+  "_id": {
+    "$oid": "60f01f08f8c5c80928ae7dd0"
+  },
+  "userid": null,
+  "username": "chandan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 11:42:00 AM"
+},{
+  "_id": {
+    "$oid": "60f029d8f8c5c80928ae7dd2"
+  },
+  "userid": null,
+  "username": "chandan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 12:28:08 PM"
+},{
+  "_id": {
+    "$oid": "60f02baaf8c5c80928ae7dd4"
+  },
+  "userid": null,
+  "username": "chandan",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 12:35:54 PM"
+},{
+  "_id": {
+    "$oid": "60f02c06f8c5c80928ae7dd6"
+  },
+  "userid": null,
+  "username": "isop",
+  "creater": null,
+  "seat_limit": null,
+  "game_mode": null,
+  "stake_money": null,
+  "game_status": null,
+  "win_money": null,
+  "playing_time": "Thursday July 15th 2021 12:37:26 PM"
+}]

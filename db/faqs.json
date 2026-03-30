@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "60c590117b21000026000ae2"
+  },
+  "faq_title": "Faq Titledfg",
+  "faq_desc": "Faq Description",
+  "updated_at": {
+    "$date": "2021-06-13T04:58:20.112Z"
+  },
+  "created_at": {
+    "$date": "2021-06-13T04:56:49.234Z"
+  }
+},{
+  "_id": {
+    "$oid": "60d7359967780000c6000e22"
+  },
+  "faq_title": "How To Earn",
+  "faq_desc": "Earn Money From Youtube",
+  "updated_at": {
+    "$date": "2021-06-26T14:11:37.721Z"
+  },
+  "created_at": {
+    "$date": "2021-06-26T14:11:37.721Z"
+  }
+}]
