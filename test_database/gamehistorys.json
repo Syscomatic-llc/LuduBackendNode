@@ -1,0 +1,2992 @@
+[{
+  "_id": {
+    "$oid": "65a6555d5bc3c715b482009c"
+  },
+  "userid": "792212425302",
+  "username": "LUDOBAZI FUN",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "8.5",
+  "playing_time": "Tuesday January 16th 2024 3:37:25 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/16/2024, 3:37:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65ae6fb7bdc1e86692da70c3"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday January 22nd 2024 7:07:59 PM",
+  "tournament_id": "",
+  "created_at": "1/22/2024, 7:07:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65ae6fc2bdc1e86692da70c4"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday January 22nd 2024 7:08:10 PM",
+  "tournament_id": "",
+  "created_at": "1/22/2024, 7:08:10 PM"
+},
+{
+  "_id": {
+    "$oid": "65b13211bdc1e86692da70c6"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday January 24th 2024 9:21:45 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/24/2024, 9:21:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65b24539bdc1e86692da70c9"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday January 25th 2024 4:55:45 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/25/2024, 4:55:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65b24726bdc1e86692da70cd"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday January 25th 2024 5:03:58 PM",
+  "tournament_id": "16456122001",
+  "created_at": "1/25/2024, 5:03:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65b24a3bbdc1e86692da70d0"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday January 25th 2024 5:17:07 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/25/2024, 5:17:07 PM"
+},
+{
+  "_id": {
+    "$oid": "65b25f07bdc1e86692da70d2"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday January 25th 2024 6:45:51 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/25/2024, 6:45:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65b60e7757d57c82330f514a"
+  },
+  "userid": "553633352781",
+  "username": "Super King",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Sunday January 28th 2024 1:51:11 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/28/2024, 1:51:11 PM"
+},
+{
+  "_id": {
+    "$oid": "65b60f7757d57c82330f514c"
+  },
+  "userid": "553633352781",
+  "username": "Super King",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Sunday January 28th 2024 1:55:27 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/28/2024, 1:55:27 PM"
+},
+{
+  "_id": {
+    "$oid": "65b8d7eebe5bfca0d522430f"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "8.5",
+  "playing_time": "Tuesday January 30th 2024 4:35:18 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/30/2024, 4:35:18 PM"
+},
+{
+  "_id": {
+    "$oid": "65b8d9a1be5bfca0d5224311"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday January 30th 2024 4:42:33 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/30/2024, 4:42:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65b8da93be5bfca0d5224313"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday January 30th 2024 4:46:35 PM",
+  "tournament_id": "16456122000",
+  "created_at": "1/30/2024, 4:46:35 PM"
+},
+{
+  "_id": {
+    "$oid": "65b9b0cbbe5bfca0d5224316"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday January 31st 2024 8:00:35 AM",
+  "tournament_id": "16456122000",
+  "created_at": "1/31/2024, 8:00:35 AM"
+},
+{
+  "_id": {
+    "$oid": "65bbab38be5bfca0d5224319"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 1st 2024 8:01:20 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/1/2024, 8:01:20 PM"
+},
+{
+  "_id": {
+    "$oid": "65c0ff3099aa0bd53966e62a"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday February 5th 2024 9:00:56 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/5/2024, 9:00:56 PM"
+},
+{
+  "_id": {
+    "$oid": "65c1008399aa0bd53966e62d"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday February 5th 2024 9:06:35 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/5/2024, 9:06:35 PM"
+},
+{
+  "_id": {
+    "$oid": "65c1b96299aa0bd53966e62f"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday February 6th 2024 10:15:22 AM",
+  "tournament_id": "16456122000",
+  "created_at": "2/6/2024, 10:15:22 AM"
+},
+{
+  "_id": {
+    "$oid": "65c881388869fbeec933635a"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Sunday February 11th 2024 1:41:36 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/11/2024, 1:41:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65cc3faa8869fbeec933635f"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 14th 2024 9:50:58 AM",
+  "tournament_id": "16456122000",
+  "created_at": "2/14/2024, 9:50:58 AM"
+},
+{
+  "_id": {
+    "$oid": "65cc40f38869fbeec9336361"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 14th 2024 9:56:27 AM",
+  "tournament_id": "16456122000",
+  "created_at": "2/14/2024, 9:56:27 AM"
+},
+{
+  "_id": {
+    "$oid": "65d384f98869fbeec9336364"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday February 19th 2024 10:12:33 PM",
+  "tournament_id": "",
+  "created_at": "2/19/2024, 10:12:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65d5fbaa8869fbeec933636f"
+  },
+  "userid": "345213696561",
+  "username": "Nikhil Arora",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 21st 2024 7:03:30 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/21/2024, 7:03:30 PM"
+},
+{
+  "_id": {
+    "$oid": "65d60b2a8869fbeec9336371"
+  },
+  "userid": "525301530479",
+  "username": "Myshoppe .online",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 21st 2024 8:09:38 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/21/2024, 8:09:38 PM"
+},
+{
+  "_id": {
+    "$oid": "65d60edd8869fbeec9336375"
+  },
+  "userid": "525301530479",
+  "username": "Myshoppe .online",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "20",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 21st 2024 8:25:25 PM",
+  "tournament_id": "16456122002",
+  "created_at": "2/21/2024, 8:25:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65d60ee88869fbeec9336376"
+  },
+  "userid": "525301530479",
+  "username": "Myshoppe .online",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "20",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday February 21st 2024 8:25:36 PM",
+  "tournament_id": "16456122002",
+  "created_at": "2/21/2024, 8:25:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65d6de180aeff99f18f2a345"
+  },
+  "userid": "363909109977",
+  "username": "Onnob Hossain Abir",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 11:09:36 AM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 11:09:36 AM"
+},
+{
+  "_id": {
+    "$oid": "65d72f000aeff99f18f2a347"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 4:54:48 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 4:54:48 PM"
+},
+{
+  "_id": {
+    "$oid": "65d742ea0aeff99f18f2a34b"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 6:19:46 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 6:19:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65d747190aeff99f18f2a34f"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 6:37:37 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 6:37:37 PM"
+},
+{
+  "_id": {
+    "$oid": "65d754890aeff99f18f2a352"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 7:34:57 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 7:34:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65d757050aeff99f18f2a355"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Thursday February 22nd 2024 7:45:33 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 7:45:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65d758b60aeff99f18f2a358"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 7:52:46 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 7:52:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65d769370aeff99f18f2a35d"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday February 22nd 2024 9:03:11 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/22/2024, 9:03:11 PM"
+},
+{
+  "_id": {
+    "$oid": "65db0c94d722bcba52e66f3b"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Sunday February 25th 2024 3:17:00 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/25/2024, 3:17:00 PM"
+},
+{
+  "_id": {
+    "$oid": "65db0e3bd722bcba52e66f3e"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet Sharma",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Sunday February 25th 2024 3:24:03 PM",
+  "tournament_id": "16456122000",
+  "created_at": "2/25/2024, 3:24:03 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c77e4939d5e444c29112"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:48:06 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:48:06 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c7ee4939d5e444c29114"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:49:58 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:49:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c8014939d5e444c29116"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:50:17 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:50:17 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c8304939d5e444c29118"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:51:04 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:51:04 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c9e14939d5e444c2911a"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:58:17 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:58:17 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1c9ec4939d5e444c2911c"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 5:58:28 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 5:58:28 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1ca7c4939d5e444c2911e"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:00:52 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:00:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1caa34939d5e444c29120"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:01:31 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:01:31 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1caca4939d5e444c29122"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:02:10 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:02:10 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1cafa4939d5e444c29124"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:02:58 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:02:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1cb224939d5e444c29126"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:03:38 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:03:38 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1cb884939d5e444c29128"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:05:20 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:05:20 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d2214939d5e444c2912d"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:33:29 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:33:29 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d2574939d5e444c2912f"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:34:23 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/1/2024, 6:34:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d35a4939d5e444c29134"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Friday March 1st 2024 6:38:42 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:38:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d3d34939d5e444c29136"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:40:43 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/1/2024, 6:40:43 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d3f44939d5e444c29138"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:41:16 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:41:16 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d4364939d5e444c2913a"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 1st 2024 6:42:22 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/1/2024, 6:42:22 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d54f4939d5e444c2913e"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Friday March 1st 2024 6:47:03 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/1/2024, 6:47:03 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d5ae4939d5e444c29142"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "20",
+  "playing_time": "Friday March 1st 2024 6:48:38 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/1/2024, 6:48:38 PM"
+},
+{
+  "_id": {
+    "$oid": "65e288b44939d5e444c29146"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 7:32:28 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 7:32:28 AM"
+},
+{
+  "_id": {
+    "$oid": "65e289004939d5e444c29149"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 7:33:44 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 7:33:44 AM"
+},
+{
+  "_id": {
+    "$oid": "65e2d9644939d5e444c2914c"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 1:16:44 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 1:16:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2eb8f4939d5e444c2914f"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 2:34:15 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 2:34:15 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f1924939d5e444c29155"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 2:59:54 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 2:59:54 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f2334939d5e444c29157"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 3:02:35 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 3:02:35 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f43a4939d5e444c2915a"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 3:11:14 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 3:11:14 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f4aa4939d5e444c2915e"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 3:13:06 PM",
+  "tournament_id": "1616251564001",
+  "created_at": "3/2/2024, 3:13:06 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fb104939d5e444c29161"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Win",
+  "win_money": "20",
+  "playing_time": "Saturday March 2nd 2024 3:40:24 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 3:40:24 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fd744939d5e444c29165"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "20",
+  "playing_time": "Saturday March 2nd 2024 3:50:36 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/2/2024, 3:50:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fda54939d5e444c29168"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Win",
+  "win_money": "40",
+  "playing_time": "Saturday March 2nd 2024 3:51:25 PM",
+  "tournament_id": "1616251564001",
+  "created_at": "3/2/2024, 3:51:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2feb24939d5e444c2916c"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "20",
+  "playing_time": "Saturday March 2nd 2024 3:55:54 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/2/2024, 3:55:54 PM"
+},
+{
+  "_id": {
+    "$oid": "65e300d34939d5e444c29170"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 4:04:59 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:04:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65e301c14939d5e444c29172"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:08:57 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:08:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3026c4939d5e444c29176"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Saturday March 2nd 2024 4:11:48 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:11:48 PM"
+},
+{
+  "_id": {
+    "$oid": "65e303d44939d5e444c29179"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:17:48 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:17:48 PM"
+},
+{
+  "_id": {
+    "$oid": "65e304294939d5e444c2917c"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:19:13 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:19:13 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3072f4939d5e444c29181"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:32:07 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:32:07 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3084b4939d5e444c29185"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:36:51 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 4:36:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e309154939d5e444c29188"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:40:13 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:40:13 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30a684939d5e444c2918b"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:45:52 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:45:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30ae64939d5e444c2918e"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:47:58 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 4:47:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30b384939d5e444c29190"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:49:20 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/2/2024, 4:49:20 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30b814939d5e444c29192"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:50:33 PM",
+  "tournament_id": "1616251564001",
+  "created_at": "3/2/2024, 4:50:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30dab4939d5e444c29193"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 4:59:47 PM",
+  "tournament_id": "",
+  "created_at": "3/2/2024, 4:59:47 PM"
+},
+{
+  "_id": {
+    "$oid": "65e317944939d5e444c29195"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:42:04 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 5:42:04 PM"
+},
+{
+  "_id": {
+    "$oid": "65e317b44939d5e444c29197"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:42:36 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 5:42:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65e317ed4939d5e444c29199"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:43:33 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/2/2024, 5:43:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65e318254939d5e444c2919b"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:44:29 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/2/2024, 5:44:29 PM"
+},
+{
+  "_id": {
+    "$oid": "65e31ad04939d5e444c2919d"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:55:52 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 5:55:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e31ad44939d5e444c2919e"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:55:56 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 5:55:56 PM"
+},
+{
+  "_id": {
+    "$oid": "65e31ad54939d5e444c2919f"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:55:57 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 5:55:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65e31ad54939d5e444c291a0"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:55:57 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 5:55:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65e31ad64939d5e444c291a1"
+  },
+  "userid": "699278321652",
+  "username": "Ranjeet ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "10",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Saturday March 2nd 2024 5:55:58 PM",
+  "tournament_id": "16456122001",
+  "created_at": "3/2/2024, 5:55:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e603374939d5e444c291a4"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Monday March 4th 2024 10:51:59 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/4/2024, 10:51:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65e603494939d5e444c291a5"
+  },
+  "userid": "418234626975",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday March 4th 2024 10:52:17 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/4/2024, 10:52:17 PM"
+},
+{
+  "_id": {
+    "$oid": "65e7126c4939d5e444c291a9"
+  },
+  "userid": "811258768766",
+  "username": "MOUNIKA SURASANI",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 6:09:08 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/5/2024, 6:09:08 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732a14939d5e444c291ab"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:33 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:33 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732a34939d5e444c291ac"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:35 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:35 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732a44939d5e444c291ad"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:36 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732a84939d5e444c291ae"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:40 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:40 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732ae4939d5e444c291af"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:46 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732af4939d5e444c291b0"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:47 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:47 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732af4939d5e444c291b1"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:47 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:47 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732af4939d5e444c291b2"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:26:47 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:26:47 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732ed4939d5e444c291b3"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:27:49 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:27:49 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732f44939d5e444c291b4"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:27:56 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:27:56 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732f54939d5e444c291b5"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:27:57 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:27:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65e732f64939d5e444c291b6"
+  },
+  "userid": "209006717628",
+  "username": "Pradeep Pradeepa",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Tuesday March 5th 2024 8:27:58 PM",
+  "tournament_id": "",
+  "created_at": "3/5/2024, 8:27:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e7ea5f4939d5e444c291be"
+  },
+  "userid": "650808613722",
+  "username": "Anonymous",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 9:30:31 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 9:30:31 AM"
+},
+{
+  "_id": {
+    "$oid": "65e7ed464939d5e444c291c2"
+  },
+  "userid": "126212406190",
+  "username": "Satish HV",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 9:42:54 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 9:42:54 AM"
+},
+{
+  "_id": {
+    "$oid": "65e7eece4939d5e444c291c4"
+  },
+  "userid": "126212406190",
+  "username": "Satish HV",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 9:49:26 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 9:49:26 AM"
+},
+{
+  "_id": {
+    "$oid": "65e7f70c4939d5e444c291c8"
+  },
+  "userid": "553747590347",
+  "username": "Muhammad Noor",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 10:24:36 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 10:24:36 AM"
+},
+{
+  "_id": {
+    "$oid": "65e82ade4939d5e444c291cb"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Win",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:05:42 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 2:05:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82b2e4939d5e444c291ce"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:07:02 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 2:07:02 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82cbe4939d5e444c291d2"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:13:42 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 2:13:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82d164939d5e444c291d4"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:15:10 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 2:15:10 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82fed4939d5e444c291d5"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:17 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:17 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830054939d5e444c291d6"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:41 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:41 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830064939d5e444c291d7"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:42 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830074939d5e444c291d8"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:43 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:43 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830074939d5e444c291d9"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:43 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:43 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830084939d5e444c291da"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:44 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830084939d5e444c291db"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:44 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830084939d5e444c291dc"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:44 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830094939d5e444c291dd"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:45 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830094939d5e444c291de"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:45 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830094939d5e444c291df"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:45 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300a4939d5e444c291e0"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:46 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300a4939d5e444c291e1"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:46 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300a4939d5e444c291e2"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:46 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300d4939d5e444c291e3"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:49 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:49 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300d4939d5e444c291e4"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:49 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:49 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8300e4939d5e444c291e5"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:50 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:50 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830104939d5e444c291e6"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:52 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830114939d5e444c291e7"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:53 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:53 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830114939d5e444c291e8"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:53 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:53 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830114939d5e444c291e9"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:53 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:53 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830124939d5e444c291ea"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:27:54 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:27:54 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8306e4939d5e444c291eb"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:26 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:26 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8306f4939d5e444c291ec"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:27 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:27 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830704939d5e444c291ed"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:28 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:28 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830874939d5e444c291ee"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:51 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830874939d5e444c291ef"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:51 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830874939d5e444c291f0"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:51 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830874939d5e444c291f1"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:51 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830884939d5e444c291f2"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:52 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830884939d5e444c291f3"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:52 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830894939d5e444c291f4"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:53 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:53 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830894939d5e444c291f5"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:53 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:53 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8308f4939d5e444c291f6"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:29:59 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:29:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830904939d5e444c291f7"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:00 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:00 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830904939d5e444c291f8"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:00 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:00 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830914939d5e444c291f9"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:01 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:01 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830914939d5e444c291fa"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:01 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:01 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830914939d5e444c291fb"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:01 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:01 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830914939d5e444c291fc"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:01 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:01 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830984939d5e444c291fd"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:08 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:08 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830994939d5e444c291fe"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:09 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:09 PM"
+},
+{
+  "_id": {
+    "$oid": "65e830994939d5e444c291ff"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:30:09 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/6/2024, 2:30:09 PM"
+},
+{
+  "_id": {
+    "$oid": "65e831634939d5e444c29200"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "offline",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:33:31 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 2:33:31 PM"
+},
+{
+  "_id": {
+    "$oid": "65e831784939d5e444c29201"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "offline",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:33:52 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 2:33:52 PM"
+},
+{
+  "_id": {
+    "$oid": "65e836834939d5e444c29205"
+  },
+  "userid": "133293747846",
+  "username": "Danush Danu",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Win",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 2:55:23 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 2:55:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e83fb74939d5e444c29209"
+  },
+  "userid": "904089699649",
+  "username": "Pushpa MJ",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 3:34:39 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/6/2024, 3:34:39 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8aed24939d5e444c29210"
+  },
+  "userid": "860179291010",
+  "username": "PRADEEP R",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 11:28:42 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 11:28:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8aed74939d5e444c29211"
+  },
+  "userid": "860179291010",
+  "username": "PRADEEP R",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 6th 2024 11:28:47 PM",
+  "tournament_id": "",
+  "created_at": "3/6/2024, 11:28:47 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8bd294939d5e444c29214"
+  },
+  "userid": "308871338590",
+  "username": "Rajesh B",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 12:29:53 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 12:29:53 AM"
+},
+{
+  "_id": {
+    "$oid": "65e98b244939d5e444c29216"
+  },
+  "userid": "984501244824",
+  "username": "",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 3:08:44 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 3:08:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e990da4939d5e444c29219"
+  },
+  "userid": "124423572298",
+  "username": "kurakula Gopala krishna",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 3:33:06 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 3:33:06 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a0964939d5e444c2921f"
+  },
+  "userid": "811258768766",
+  "username": "MOUNIKA SURASANI",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Win",
+  "win_money": "10",
+  "playing_time": "Thursday March 7th 2024 4:40:14 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 4:40:14 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a09f4939d5e444c29220"
+  },
+  "userid": "811258768766",
+  "username": "MOUNIKA SURASANI",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 4:40:23 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 4:40:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a0de4939d5e444c29222"
+  },
+  "userid": "685441448274",
+  "username": "Barak Radhi",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 4:41:26 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 4:41:26 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a58f4939d5e444c29227"
+  },
+  "userid": "632814592247",
+  "username": "Mohankumar Mohan",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 5:01:27 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 5:01:27 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a5b04939d5e444c29228"
+  },
+  "userid": "632814592247",
+  "username": "Mohankumar Mohan",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 5:02:00 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 5:02:00 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a5ba4939d5e444c29229"
+  },
+  "userid": "685441448274",
+  "username": "Barak Radhi",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 5:02:10 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 5:02:10 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a5e74939d5e444c2922b"
+  },
+  "userid": "632814592247",
+  "username": "Mohankumar Mohan",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 5:02:55 PM",
+  "tournament_id": "1616251564000",
+  "created_at": "3/7/2024, 5:02:55 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9b05c4939d5e444c2922f"
+  },
+  "userid": "688308970746",
+  "username": "Arpitha Arpitha",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Thursday March 7th 2024 5:47:32 PM",
+  "tournament_id": "16456122000",
+  "created_at": "3/7/2024, 5:47:32 PM"
+},
+{
+  "_id": {
+    "$oid": "65eaa03b4939d5e444c29232"
+  },
+  "userid": "860179291010",
+  "username": "PRADEEP R",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "5",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Friday March 8th 2024 10:50:59 AM",
+  "tournament_id": "16456122000",
+  "created_at": "3/8/2024, 10:50:59 AM"
+},
+{
+  "_id": {
+    "$oid": "65eee4f64939d5e444c29234"
+  },
+  "userid": "632814592247",
+  "username": "Mohankumar Mohan",
+  "creater": null,
+  "seat_limit": "2",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Monday March 11th 2024 4:33:18 PM",
+  "tournament_id": "",
+  "created_at": "3/11/2024, 4:33:18 PM"
+},
+{
+  "_id": {
+    "$oid": "65faa42ece57b267fb197cb2"
+  },
+  "userid": "984501244824",
+  "username": "WebPlus Tech",
+  "creater": null,
+  "seat_limit": "4",
+  "type": "Gameplay",
+  "game_mode": "vsComputer",
+  "stake_money": "0",
+  "game_status": "Lose",
+  "win_money": "0",
+  "playing_time": "Wednesday March 20th 2024 2:24:06 PM",
+  "tournament_id": "",
+  "created_at": "3/20/2024, 2:24:06 PM"
+}]

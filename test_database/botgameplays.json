@@ -1,0 +1,580 @@
+[{
+  "_id": {
+    "$oid": "65a6555d5bc3c715b482009b"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "1/16/2024, 3:37:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65ae6fb7bdc1e86692da70c0"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "1/22/2024, 7:07:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65ae6fb7bdc1e86692da70c1"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "1/22/2024, 7:07:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65ae6fb7bdc1e86692da70c2"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "1/22/2024, 7:07:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65b24539bdc1e86692da70c8"
+  },
+  "entry": "5",
+  "win_money": "8.5",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "1/25/2024, 4:55:45 PM"
+},
+{
+  "_id": {
+    "$oid": "65b24726bdc1e86692da70cc"
+  },
+  "entry": "10",
+  "win_money": "17",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "1/25/2024, 5:03:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65b60e7757d57c82330f5149"
+  },
+  "entry": "5",
+  "win_money": "8.5",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "1/28/2024, 1:51:11 PM"
+},
+{
+  "_id": {
+    "$oid": "65b8d7eebe5bfca0d522430e"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "1/30/2024, 4:35:18 PM"
+},
+{
+  "_id": {
+    "$oid": "65bbab38be5bfca0d5224318"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/1/2024, 8:01:20 PM"
+},
+{
+  "_id": {
+    "$oid": "65c0ff3099aa0bd53966e629"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/5/2024, 9:00:56 PM"
+},
+{
+  "_id": {
+    "$oid": "65c1008299aa0bd53966e62c"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/5/2024, 9:06:34 PM"
+},
+{
+  "_id": {
+    "$oid": "65d5fbaa8869fbeec933636e"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/21/2024, 7:03:30 PM"
+},
+{
+  "_id": {
+    "$oid": "65d60edd8869fbeec9336374"
+  },
+  "entry": "20",
+  "win_money": "40",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/21/2024, 8:25:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65d742ea0aeff99f18f2a34a"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/22/2024, 6:19:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65d747190aeff99f18f2a34e"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/22/2024, 6:37:37 PM"
+},
+{
+  "_id": {
+    "$oid": "65d754890aeff99f18f2a351"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/22/2024, 7:34:57 PM"
+},
+{
+  "_id": {
+    "$oid": "65d757040aeff99f18f2a354"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "2/22/2024, 7:45:32 PM"
+},
+{
+  "_id": {
+    "$oid": "65d758b60aeff99f18f2a357"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/22/2024, 7:52:46 PM"
+},
+{
+  "_id": {
+    "$oid": "65d769370aeff99f18f2a35c"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/22/2024, 9:03:11 PM"
+},
+{
+  "_id": {
+    "$oid": "65db0c94d722bcba52e66f3a"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "2/25/2024, 3:17:00 PM"
+},
+{
+  "_id": {
+    "$oid": "65db0e3bd722bcba52e66f3d"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "2/25/2024, 3:24:03 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d35a4939d5e444c29133"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/1/2024, 6:38:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d54f4939d5e444c2913d"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/1/2024, 6:47:03 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d5ae4939d5e444c29140"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/1/2024, 6:48:38 PM"
+},
+{
+  "_id": {
+    "$oid": "65e1d5ae4939d5e444c29141"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/1/2024, 6:48:38 PM"
+},
+{
+  "_id": {
+    "$oid": "65e288b34939d5e444c29145"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 7:32:27 AM"
+},
+{
+  "_id": {
+    "$oid": "65e289004939d5e444c29148"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 7:33:44 AM"
+},
+{
+  "_id": {
+    "$oid": "65e2d9644939d5e444c2914b"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 1:16:44 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f1924939d5e444c29154"
+  },
+  "entry": "10",
+  "win_money": "20",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 2:59:54 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f43a4939d5e444c29159"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 3:11:14 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f4aa4939d5e444c2915c"
+  },
+  "entry": "10",
+  "win_money": "40",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 3:13:06 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2f4aa4939d5e444c2915d"
+  },
+  "entry": "10",
+  "win_money": "0",
+  "loss_money": "10",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 3:13:06 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fb104939d5e444c29160"
+  },
+  "entry": "10",
+  "win_money": "0",
+  "loss_money": "10",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 3:40:24 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fd744939d5e444c29164"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 3:50:36 PM"
+},
+{
+  "_id": {
+    "$oid": "65e2fda54939d5e444c29167"
+  },
+  "entry": "10",
+  "win_money": "0",
+  "loss_money": "10",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 3:51:25 PM"
+},
+{
+  "_id": {
+    "$oid": "65e300d34939d5e444c2916f"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 4:04:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3026c4939d5e444c29175"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/2/2024, 4:11:48 PM"
+},
+{
+  "_id": {
+    "$oid": "65e303d44939d5e444c29178"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:17:48 PM"
+},
+{
+  "_id": {
+    "$oid": "65e304294939d5e444c2917b"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:19:13 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3072f4939d5e444c29180"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:32:07 PM"
+},
+{
+  "_id": {
+    "$oid": "65e3084b4939d5e444c29184"
+  },
+  "entry": "10",
+  "win_money": "20",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:36:51 PM"
+},
+{
+  "_id": {
+    "$oid": "65e309154939d5e444c29187"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:40:13 PM"
+},
+{
+  "_id": {
+    "$oid": "65e30ae64939d5e444c2918d"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/2/2024, 4:47:58 PM"
+},
+{
+  "_id": {
+    "$oid": "65e603374939d5e444c291a3"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/4/2024, 10:51:59 PM"
+},
+{
+  "_id": {
+    "$oid": "65e7f70c4939d5e444c291c7"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/6/2024, 10:24:36 AM"
+},
+{
+  "_id": {
+    "$oid": "65e82ade4939d5e444c291ca"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "3/6/2024, 2:05:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82b2e4939d5e444c291cd"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/6/2024, 2:07:02 PM"
+},
+{
+  "_id": {
+    "$oid": "65e82cbe4939d5e444c291d1"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/6/2024, 2:13:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e836834939d5e444c29202"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "3/6/2024, 2:55:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e836834939d5e444c29203"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "3/6/2024, 2:55:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e836834939d5e444c29204"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Loss",
+  "currentTime": "3/6/2024, 2:55:23 PM"
+},
+{
+  "_id": {
+    "$oid": "65e83fac4939d5e444c29208"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/6/2024, 3:34:28 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8aed24939d5e444c2920f"
+  },
+  "entry": "0",
+  "win_money": "0",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/6/2024, 11:28:42 PM"
+},
+{
+  "_id": {
+    "$oid": "65e8bd294939d5e444c29213"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/7/2024, 12:29:53 AM"
+},
+{
+  "_id": {
+    "$oid": "65e9a0954939d5e444c2921e"
+  },
+  "entry": "5",
+  "win_money": "0",
+  "loss_money": "5",
+  "game_status": "Loss",
+  "currentTime": "3/7/2024, 4:40:13 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9a0de4939d5e444c29221"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/7/2024, 4:41:26 PM"
+},
+{
+  "_id": {
+    "$oid": "65e9b05c4939d5e444c2922e"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/7/2024, 5:47:32 PM"
+},
+{
+  "_id": {
+    "$oid": "65eaa03b4939d5e444c29231"
+  },
+  "entry": "5",
+  "win_money": "10",
+  "loss_money": "0",
+  "game_status": "Win",
+  "currentTime": "3/8/2024, 10:50:58 AM"
+}]

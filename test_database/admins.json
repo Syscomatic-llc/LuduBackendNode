@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "60c564585138141eb435ddf4"
+  },
+  "id": "1",
+  "name": "Ludo Nexa",
+  "username": "Ludo Nexa",
+  "email": "admin@gmail.com",
+  "role": "Admin",
+  "password": "$2y$10$w9ojUcQ289LScLCStYO0YeobzdL6XhZ.vICfVBLtNCD9w14Xv4Kvq",
+  "bio": "LudoRush-Play money winning games | Online real cash games in India. Ludo Rush is India’s most trusted gaming application which gives you the option to play real money earning Ludo Game. Play online with lakhs of players from India, show your skills, and win real money. Withdraw your winnings instantly using UPI or Bank transfer.\"",
+  "birthdate": "2021-04-10",
+  "website": "https://ludorush.fun/",
+  "phone": "999999999",
+  "country": "India",
+  "company": "Ludo Nexa",
+  "profile_img": "ludoicon.png",
+  "work": "",
+  "publish_year": "",
+  "facebook": "https://facebook.com/",
+  "instagram": "https://instagram.com/",
+  "twitter": "https://twitter.com/",
+  "linkedin": "https://linkdln.com/",
+  "youtube": "https://youtube.com/",
+  "whatsapp": "https://api.whatsapp.com/",
+  "created_at": "",
+  "updated_at": {
+    "$date": "2024-01-19T10:18:51.297Z"
+  }
+}]

@@ -7,7 +7,7 @@
   "variable": [
     {
       "key": "base_url",
-      "value": "http://localhost:16000",
+      "value": "https://luduapi.syscomatic.com",
       "type": "string"
     }
   ],

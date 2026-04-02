@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "64e7374635bb3d8ff80327e3"
+  },
+  "img": "https://xp.io/storage/26jANQxg.png",
+  "imglinks": "https://xp.io/storage/26jANQxg.png",
+  "updated_at": {
+    "$date": "2023-08-24T10:56:06.556Z"
+  },
+  "created_at": {
+    "$date": "2023-08-24T10:56:06.556Z"
+  }
+}]

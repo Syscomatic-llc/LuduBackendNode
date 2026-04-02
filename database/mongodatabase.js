@@ -1,6 +1,6 @@
 var MongoClient = require("mongodb").MongoClient;
 // var URL = "mongodb+srv://royallifemart:PJ3NJqtPv2dUT1ph@royalludo.2xczupv.mongodb.net/?retryWrites=true&w=majority";
-var URL = "mongodb://localhost:27017/luduBackend";
+var URL = process.env.MONGO_URL || "mongodb://localhost:27017/luduBackend";
 
 var state = {
   db: null,

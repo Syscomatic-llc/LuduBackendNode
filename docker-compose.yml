@@ -9,7 +9,7 @@ services:
       - "16000:16000"
     environment:
       - PORT=16000
-      - MONGO_URL=mongodb://mongo:27017/ludu
+      - MONGO_URL=mongodb://mongo:27017/luduBackend
       # Add other environment variables here depending on your app
     depends_on:
       - mongo

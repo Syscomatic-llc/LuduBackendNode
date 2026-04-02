@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "65d9b7ba3e091f60f00849d2"
+  },
+  "bid_value": "https://i.postimg.cc/qvXpx51Y/1-1.png",
+  "extra_amount": "https://ludonexa.com/",
+  "updated_at": {
+    "$date": "2024-02-24T09:32:42.762Z"
+  },
+  "created_at": {
+    "$date": "2024-02-24T09:32:42.762Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e05393a6f95c25b10e0532"
+  },
+  "bid_value": "https://i.postimg.cc/qvXpx51Y/1-1.png",
+  "extra_amount": "https://ludonexa.com/",
+  "updated_at": {
+    "$date": "2024-02-29T09:51:14.628Z"
+  },
+  "created_at": {
+    "$date": "2024-02-29T09:51:14.628Z"
+  }
+}]

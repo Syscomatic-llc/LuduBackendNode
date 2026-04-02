@@ -1,0 +1,1897 @@
+[{
+  "_id": {
+    "$oid": "6529044d95c1517f07f55f79"
+  },
+  "username": "TestLogin",
+  "userid": "984501244824",
+  "userphone": "987654321",
+  "useremail": "test@gmail.com",
+  "photo": "null",
+  "points": "8600",
+  "google_id": "TestLogin",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 23,
+    "played": 54
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 9,
+    "played": 34
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Friday October 13th 2023 2:18:13 PM",
+  "spin_date": {
+    "$date": "2023-10-13T08:48:13.775Z"
+  },
+  "dailyReward_date": {
+    "$date": "2023-10-13T08:48:13.775Z"
+  },
+  "referral_by": "adminxyz54321",
+  "referral_code": "254795",
+  "connect": "I9Y_xvjznTna9ZZ2AAAV",
+  "winning_amount": "200",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "dfd307f5555e68b4cd240e1d5ef43493",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Delhi"
+},
+{
+  "_id": {
+    "$oid": "65a534f75bc3c715b4820095"
+  },
+  "username": "WebPlus Tech",
+  "userid": "418234626975",
+  "userphone": "9128403769",
+  "useremail": "webplustech01@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocJpBLZ06-QYv7YA449ASWaa87ixrukVBJKXia1HGHOp_w",
+  "points": "695",
+  "google_id": "WebPlus Tech",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 3,
+    "played": 3
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 2,
+    "played": 2
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Monday January 15th 2024 7:06:55 PM",
+  "spin_date": {
+    "$date": "2024-01-15T13:36:55.172Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-15T13:36:55.172Z"
+  },
+  "referral_code": "332981",
+  "connect": "7D5d-WIB6w9WjmpPAAAU",
+  "winning_amount": "30",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "96865f9472da6a18e395280f0c9fa490",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar",
+  "updated_at": {
+    "$date": "2024-02-21T11:35:41.773Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a64cdd5bc3c715b4820097"
+  },
+  "username": "Ranjeet Sharma",
+  "userid": "699278321652",
+  "userphone": "7004389031",
+  "useremail": "sharma.gunja@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocJjbP75DaUzZvghIYtG5_qGEjYHOcKlsDQmEVdqF2JTIZt_",
+  "points": "945",
+  "google_id": "Ranjeet Sharma",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 3,
+    "played": 10
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Tuesday January 16th 2024 3:01:09 PM",
+  "spin_date": {
+    "$date": "2024-01-16T09:31:09.289Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-16T09:31:09.289Z"
+  },
+  "referral_code": "923497",
+  "connect": "cTxYXz5Ij7_7RofCAAAL",
+  "winning_amount": "23.5",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "11d0d79a393119127a2993e1f81c1e47",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Delhi",
+  "updated_at": {
+    "$date": "2024-03-02T12:04:20.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a69bd45bc3c715b482009e"
+  },
+  "username": "Myshoppe .online",
+  "userid": "525301530479",
+  "userphone": "9355005500",
+  "useremail": "royallifemart@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocIGQNk2fakpvuZl8Q892eEmKzZAumYpB1hvJ_ZDocKM7D0",
+  "points": "175",
+  "google_id": "Myshoppe .online",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Tuesday January 16th 2024 8:38:04 PM",
+  "spin_date": {
+    "$date": "2024-01-16T15:08:04.178Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-16T15:08:04.178Z"
+  },
+  "referral_code": "131584",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "f470e8ed730f8f71c204a8d36c60371a",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65b60bcc57d57c82330f5145"
+  },
+  "username": "Super King",
+  "userid": "553633352781",
+  "userphone": "8210159918",
+  "useremail": "superking2214@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocK1_xl_dt2Z0EcTk9bGBLbO23R-tY8yXefqjyX39A1ppg",
+  "points": "495",
+  "google_id": "Super King",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Sunday January 28th 2024 1:39:48 PM",
+  "spin_date": {
+    "$date": "2024-01-28T08:09:48.311Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-28T08:09:48.311Z"
+  },
+  "referral_code": "732201",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "d4951a6b7ac844849eca25e69c852203",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65b60e5557d57c82330f5148"
+  },
+  "username": "Ashmit Goyal",
+  "userid": "675600750038",
+  "userphone": "8306121284",
+  "useremail": "thecrazygamer04027@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocIx6l_m_4QguMScu5Yz_jVUn-iUED5njsb9qlJMX5t8tT0",
+  "points": "500",
+  "google_id": "Ashmit Goyal",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Sunday January 28th 2024 1:50:37 PM",
+  "spin_date": {
+    "$date": "2024-01-28T08:20:37.627Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-28T08:20:37.627Z"
+  },
+  "referral_code": "184222",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "8e74855905354389386d6591813c78c1",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65b77ee157d57c82330f514f"
+  },
+  "username": "RS",
+  "userid": "856202958224",
+  "userphone": "9304538240",
+  "useremail": "webtechcareerpoint@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/AGNmyxbTsILZx-oaagaQcSROyKtLt_EPKDRtwjyCBfQjwg",
+  "points": "100",
+  "google_id": "RS",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Monday January 29th 2024 4:03:05 PM",
+  "spin_date": {
+    "$date": "2024-01-29T10:33:05.605Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-29T10:33:05.605Z"
+  },
+  "referral_code": "173519",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "1e7a9a8eb8673c9e03974d25d750959a",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65b783cdbe5bfca0d522430c"
+  },
+  "username": "Vishu Tech",
+  "userid": "884643470604",
+  "userphone": "6360452353",
+  "useremail": "vishutech247@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocLy0jIP-uJDxuaazY_noPGy8xL1iDuw2h0Mwla0lkl9",
+  "points": "10",
+  "google_id": "Vishu Tech",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Monday January 29th 2024 4:24:05 PM",
+  "spin_date": {
+    "$date": "2024-01-29T10:54:05.048Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-01-29T10:54:05.048Z"
+  },
+  "referral_code": "885807",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "f083c4da2f00d3076200569d327a0a8f",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65bf2b4599aa0bd53966e625"
+  },
+  "username": "Kundan",
+  "userid": "802109963621",
+  "userphone": "8252754050",
+  "useremail": "mrghamandiboy@gmail.com",
+  "photo": "null",
+  "points": "10",
+  "google_id": "Kundan",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Sunday February 4th 2024 11:44:29 AM",
+  "spin_date": {
+    "$date": "2024-02-04T06:14:29.968Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-04T06:14:29.968Z"
+  },
+  "referral_code": "338950",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "1e3b24b11c1adcacc59fb759a1759509",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65d5f1fe8869fbeec9336369"
+  },
+  "username": "Nikhil Arora",
+  "userid": "345213696561",
+  "userphone": "9304538240",
+  "useremail": "blastupinside@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocILC3fycAHAM6oKp7ylaBXKkL3hTnOq9AXwK8nLegcvWvlp",
+  "points": "5",
+  "google_id": "Nikhil Arora",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday February 21st 2024 6:22:14 PM",
+  "spin_date": {
+    "$date": "2024-02-21T12:52:14.007Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-21T12:52:14.007Z"
+  },
+  "referral_code": "384504",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "0fcfbbb1a21dc46abe30f90a9fe1fef7",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65d6c9bc0aeff99f18f2a340"
+  },
+  "username": "Neeraj Maurya",
+  "userid": "962787359323",
+  "userphone": "9304538240",
+  "useremail": "neerajmry999@gmail.com",
+  "photo": "null",
+  "points": "5",
+  "google_id": "Neeraj Maurya",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday February 22nd 2024 9:42:44 AM",
+  "spin_date": {
+    "$date": "2024-02-22T04:12:44.245Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-22T04:12:44.245Z"
+  },
+  "referral_code": "950943",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "a8f6cb61bd5b8a7abfa8095336c66bbc",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65d6dc1a0aeff99f18f2a342"
+  },
+  "username": "My Demo Account",
+  "userid": "904089699649",
+  "userphone": "8880949826",
+  "useremail": "a1880131725@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "My Demo Account",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday February 22nd 2024 11:01:06 AM",
+  "spin_date": {
+    "$date": "2024-02-22T05:31:06.813Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-22T05:31:06.813Z"
+  },
+  "referral_code": "465450",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "259f8b862c232f51cec341c6096b11c5",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Assam"
+},
+{
+  "_id": {
+    "$oid": "65d6dca70aeff99f18f2a343"
+  },
+  "username": "Onnob Hossain Abir",
+  "userid": "363909109977",
+  "userphone": "9304538240",
+  "useremail": "onnobhossainabir@gmail.com",
+  "photo": "http://35.90.121.12/userphotos/363909109977.png",
+  "points": "5",
+  "google_id": "Onnob Hossain Abir",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday February 22nd 2024 11:03:27 AM",
+  "spin_date": {
+    "$date": "2024-02-22T05:33:27.058Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-22T05:33:27.058Z"
+  },
+  "referral_code": "548852",
+  "connect": "c6K0b3V18Hmn4qftAAAK",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "259f8b862c232f51cec341c6096b11c5",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65d75c370aeff99f18f2a35a"
+  },
+  "username": "Sandeep Kumar Tiwari",
+  "userid": "144548721020",
+  "userphone": "",
+  "useremail": "sandeeptiwari071995@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocJfPTTwjxo3_F9ck3QUGqV5jniOYP3Pp240L1fATs8XKw",
+  "points": "10",
+  "google_id": "Sandeep Kumar Tiwari",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday February 22nd 2024 8:07:43 PM",
+  "spin_date": {
+    "$date": "2024-02-22T14:37:43.649Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-22T14:37:43.649Z"
+  },
+  "referral_code": "238325",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "269b15fc4a54e668d38d74ce4dfc6f23",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": ""
+},
+{
+  "_id": {
+    "$oid": "65d9b2530aeff99f18f2a361"
+  },
+  "username": "Rahma Takouk",
+  "userid": "451773506934",
+  "userphone": "9304538240",
+  "useremail": "rahmatakouk@gmail.com",
+  "photo": "null",
+  "points": "10",
+  "google_id": "Rahma Takouk",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Saturday February 24th 2024 2:39:39 PM",
+  "spin_date": {
+    "$date": "2024-02-24T09:09:39.586Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-02-24T09:09:39.586Z"
+  },
+  "referral_code": "499657",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "78b1d0f50af0f5701a4624216601b2c8",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65e710a64939d5e444c291a6"
+  },
+  "username": "MOUNIKA SURASANI",
+  "userid": "811258768766",
+  "userphone": "9347311150",
+  "useremail": "mounika24efiling@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocJGIsh7PEypa1PsaZAnDGa1m5YpJ1XRE9OGeptowxC-Maw",
+  "points": "0",
+  "google_id": "MOUNIKA SURASANI",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 1,
+    "played": 1
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Tuesday March 5th 2024 6:01:34 PM",
+  "spin_date": {
+    "$date": "2024-03-05T12:31:34.432Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-05T12:31:34.432Z"
+  },
+  "referral_code": "812268",
+  "connect": "",
+  "winning_amount": "10",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "bc20c3bed0ade7a001c43002714cebb8",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Arunachal Pradesh"
+},
+{
+  "_id": {
+    "$oid": "65e731644939d5e444c291aa"
+  },
+  "username": "Pradeep Pradeepa",
+  "userid": "209006717628",
+  "userphone": "7975750322",
+  "useremail": "pradeepapradeep71@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a-/AOh14GjzqzsndPxS2LKTJYAuuVKVIqCW1Oq9gt-E-Ppf_Q",
+  "points": "0",
+  "google_id": "Pradeep Pradeepa",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Tuesday March 5th 2024 8:21:16 PM",
+  "spin_date": {
+    "$date": "2024-03-05T14:51:16.915Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-05T14:51:16.915Z"
+  },
+  "referral_code": "513970",
+  "connect": "wNz0v1iA8N3OE4oHAAAO",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "dcda94fa082f99e29fcf0d702904353f",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e7e1ec4939d5e444c291b9"
+  },
+  "username": "Ace Web Solutions",
+  "userid": "168757206536",
+  "userphone": "",
+  "useremail": "acewebsolutionstech@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocIIJKYgZBpxzoXo9tw2LfiVU3_Fq8n5aXeTRm5ItfAu4w",
+  "points": "10",
+  "google_id": "Ace Web Solutions",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 8:54:28 AM",
+  "spin_date": {
+    "$date": "2024-03-06T03:24:28.002Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T03:24:28.002Z"
+  },
+  "referral_code": "670978",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "b1a0685b3614fb34c08eef5fe6acdab2",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": ""
+},
+{
+  "_id": {
+    "$oid": "65e7e2a04939d5e444c291ba"
+  },
+  "username": "Anonymous",
+  "userid": "650808613722",
+  "userphone": "6360452353",
+  "useremail": "anonymous60936@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "Anonymous",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 8:57:28 AM",
+  "spin_date": {
+    "$date": "2024-03-06T03:27:28.383Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T03:27:28.383Z"
+  },
+  "referral_code": "339570",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "3d0edc4cd98cc1bb0b7b69888ed03ecf",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e7e41e4939d5e444c291bc"
+  },
+  "username": "Satish HV",
+  "userid": "126212406190",
+  "userphone": "9108563690",
+  "useremail": "satishhv512@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "Satish HV",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 9:03:50 AM",
+  "spin_date": {
+    "$date": "2024-03-06T03:33:50.710Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T03:33:50.710Z"
+  },
+  "referral_code": "838815",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "ea973a13c56d876ce214e083baae7028",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e7f49c4939d5e444c291c5"
+  },
+  "username": "Muhammad Noor",
+  "userid": "553747590347",
+  "userphone": "9019775229",
+  "useremail": "mhd.noore@gmail.com",
+  "photo": "null",
+  "points": "5",
+  "google_id": "Muhammad Noor",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 10:14:12 AM",
+  "spin_date": {
+    "$date": "2024-03-06T04:44:12.702Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T04:44:12.702Z"
+  },
+  "referral_code": "449236",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "e3bd77751bd8e08ad7434d4f2e2df4cf",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e828964939d5e444c291c9"
+  },
+  "username": "Danush Danu",
+  "userid": "133293747846",
+  "userphone": "8147717179",
+  "useremail": "rkmjm90@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "Danush Danu",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 1,
+    "played": 3
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 1:55:58 PM",
+  "spin_date": {
+    "$date": "2024-03-06T08:25:58.182Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T08:25:58.182Z"
+  },
+  "referral_code": "442892",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "f6a12768e77af2d6c6a705424748ccc0",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Jharkhand"
+},
+{
+  "_id": {
+    "$oid": "65e83ca24939d5e444c29206"
+  },
+  "username": "Pushpa MJ",
+  "userid": "645539362965",
+  "userphone": "8880949826",
+  "useremail": "pushpanjali.mj65@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocLNKhgnpKlnJGrSG0cluG-xsqPbErw8hT0Hra9weD0r4r4",
+  "points": "5",
+  "google_id": "Pushpa MJ",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 3:21:30 PM",
+  "spin_date": {
+    "$date": "2024-03-06T09:51:30.463Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T09:51:30.463Z"
+  },
+  "referral_code": "846156",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "a1e21efea8421505856b7a95838c645e",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": ""
+},
+{
+  "_id": {
+    "$oid": "65e883214939d5e444c2920c"
+  },
+  "username": "Rajesh B",
+  "userid": "308871338590",
+  "userphone": "9035652001",
+  "useremail": "b88951025@gmail.com",
+  "photo": "null",
+  "points": "5",
+  "google_id": "Rajesh B",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 8:22:17 PM",
+  "spin_date": {
+    "$date": "2024-03-06T14:52:17.389Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T14:52:17.389Z"
+  },
+  "referral_code": "772259",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "f8a0f727db5aeef4cd54b24005e6254a",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e8ad294939d5e444c2920e"
+  },
+  "username": "PRADEEP R",
+  "userid": "860179291010",
+  "userphone": "9845313149",
+  "useremail": "pachi13.1049@gmail.com",
+  "photo": "null",
+  "points": "5",
+  "google_id": "PRADEEP R",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Wednesday March 6th 2024 11:21:37 PM",
+  "spin_date": {
+    "$date": "2024-03-06T17:51:37.941Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-06T17:51:37.941Z"
+  },
+  "referral_code": "118403",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "bd976c723c8241162967557e2912e08c",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e9906f4939d5e444c29217"
+  },
+  "username": "kurakula Gopala krishna",
+  "userid": "124423572298",
+  "userphone": "",
+  "useremail": "gopalakrishnakurakula@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocKLw3e79QpVchJq7mdO_LS54iiaBP-Rh9jHZsuGuR38R88",
+  "points": "0",
+  "google_id": "kurakula Gopala krishna",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday March 7th 2024 3:31:19 PM",
+  "spin_date": {
+    "$date": "2024-03-07T10:01:19.082Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-07T10:01:19.082Z"
+  },
+  "referral_code": "951575",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "666cc38925533a66b8e6d5368797c178",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Bihar"
+},
+{
+  "_id": {
+    "$oid": "65e99eed4939d5e444c2921c"
+  },
+  "username": "Barak Radhi",
+  "userid": "685441448274",
+  "userphone": "8277174609",
+  "useremail": "barakradhi@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "Barak Radhi",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 2
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 3
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday March 7th 2024 4:33:09 PM",
+  "spin_date": {
+    "$date": "2024-03-07T11:03:09.586Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-07T11:03:09.586Z"
+  },
+  "referral_code": "182258",
+  "connect": "3acfXxS6naJhuMSbAAAI",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "eeed0679b81b60a2ff57d6221fc5ed5d",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e9a1b54939d5e444c29223"
+  },
+  "username": "Mohankumar Mohan",
+  "userid": "632814592247",
+  "userphone": "8880008266",
+  "useremail": "mohan1990bdvt7@gmail.com",
+  "photo": "null",
+  "points": "0",
+  "google_id": "Mohankumar Mohan",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 2
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday March 7th 2024 4:45:01 PM",
+  "spin_date": {
+    "$date": "2024-03-07T11:15:01.365Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-07T11:15:01.365Z"
+  },
+  "referral_code": "450874",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "88879f9171dc7856ca895631980aa8e5",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65e9af0b4939d5e444c2922c"
+  },
+  "username": "Arpitha Arpitha",
+  "userid": "688308970746",
+  "userphone": "7411609554",
+  "useremail": "arpithahv003@gmail.com",
+  "photo": "null",
+  "points": "5",
+  "google_id": "Arpitha Arpitha",
+  "level": 0,
+  "online_multiplayer": {
+    "won": 0,
+    "played": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "won": 0,
+    "played": 1
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Thursday March 7th 2024 5:41:55 PM",
+  "spin_date": {
+    "$date": "2024-03-07T12:11:55.314Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-07T12:11:55.314Z"
+  },
+  "referral_code": "720938",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "6f30695df7f90e19669e8c93b323cbdb",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": "Karnataka"
+},
+{
+  "_id": {
+    "$oid": "65eedd0c4939d5e444c29233"
+  },
+  "username": "Kasi reddy",
+  "userid": "508139945798",
+  "userphone": "",
+  "useremail": "kasireddyaws@gmail.com",
+  "photo": "null",
+  "points": "10",
+  "google_id": "Kasi reddy",
+  "level": 0,
+  "online_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "friend_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "quickludo_multiplayer": {
+    "played": 0,
+    "won": 0
+  },
+  "tokens_captured": {
+    "mine": 0,
+    "opponents": 0
+  },
+  "won_streaks": {
+    "current": 0,
+    "best": 0
+  },
+  "referral_count": 0,
+  "referral_users": [],
+  "created_date": "Monday March 11th 2024 3:59:32 PM",
+  "spin_date": {
+    "$date": "2024-03-11T10:29:32.377Z"
+  },
+  "dailyReward_date": {
+    "$date": "2024-03-11T10:29:32.377Z"
+  },
+  "referral_code": "290481",
+  "connect": "",
+  "winning_amount": "0",
+  "added_amount": 0,
+  "refer_earning": 0,
+  "status": 0,
+  "login_status": "0",
+  "banned": 1,
+  "kyc_status": 0,
+  "upi_id": "",
+  "upi_name": "",
+  "bank_id": "",
+  "acc_holder": "",
+  "acc_number": "",
+  "bank_name": "",
+  "ifsc": "",
+  "device_token": "a65db74b05eaec0fbffc3ad9f6f451c5",
+  "used_refer_code": "",
+  "uniquebankid": "",
+  "uniqueupiid": "",
+  "region": ""
+}]
