@@ -20,8 +20,8 @@ var io = require('socket.io')(server,
   {
     transports: ['websocket'],
     allowUpgrades: false,
-    pingInterval: 25000,
-    pingTimeout: 60000,
+    pingInterval: 25000, // 25 seconds
+    pingTimeout: 60000, // 1 minute
   });
 console.log("check...");
 // view engine setup

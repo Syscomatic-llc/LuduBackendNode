@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: ludu_backend
+    restart: always
+    ports:
+      - "16000:16000"
+    environment:
+      - PORT=16000
+      - MONGO_URL=mongodb://mongo:27017/ludu
+      # Add other environment variables here depending on your app
+    depends_on:
+      - mongo
+    networks:
+      - ludu_network
+
+  mongo:
+    image: mongo:5.0
+    container_name: ludu_mongo
+    restart: always
+    ports:
+      - "27017:27017" # Only expose if you need external access, otherwise remove this mapping
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - ludu_network
+
+volumes:
+  mongo_data:
+
+networks:
+  ludu_network:
+    driver: bridge

@@ -1,0 +1,936 @@
+{
+  "info": {
+    "name": "Ludu Game Backend Socket.IO API",
+    "description": "Postman Collection containing all documented Socket.IO events for the Ludu game backend.\n\n**Note**: These requests are represented as HTTP POST requests to easily store the JSON payloads. To test them in Postman:\n1. Open a new **Socket.IO Request** in Postman.\n2. Connect to your server URL (e.g. `ws://localhost:16000`).\n3. Set the 'Event Name' to the endpoint path (e.g. `REQ_LOGIN`).\n4. Copy the JSON body from these saved requests and paste them into the Socket.IO message tab.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:16000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. Authentication",
+      "item": [
+        {
+          "name": "1.1 REQ_LOGIN",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"logintype\": \"Phone\",\n  \"userphone\": \"string_if_phone\",\n  \"google_id\": \"string_if_google\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_LOGIN", "host": ["{{base_url}}"], "path": ["REQ_LOGIN"] },
+            "description": "Authenticate a user using phone number or Google ID.\nResponse: GET_LOGIN_RESULT"
+          }
+        },
+        {
+          "name": "1.2 REQ_LOGOUT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_LOGOUT", "host": ["{{base_url}}"], "path": ["REQ_LOGOUT"] },
+            "description": "Logout the user.\nResponse: None"
+          }
+        },
+        {
+          "name": "1.3 REQ_REGISTER",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"loginMode\": \"phone\",\n  \"username\": \"string\",\n  \"userphone\": \"string\",\n  \"useremail\": \"string\",\n  \"userphoto\": \"string\",\n  \"google_id\": \"string\",\n  \"referral\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_REGISTER", "host": ["{{base_url}}"], "path": ["REQ_REGISTER"] },
+            "description": "Register a new user.\nResponse: GET_REGISTER_RESULT"
+          }
+        },
+        {
+          "name": "1.4 REQ_VALID_PHONE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_VALID_PHONE", "host": ["{{base_url}}"], "path": ["REQ_VALID_PHONE"] },
+            "description": "Check if a phone number is already registered.\nResponse: REQ_VALID_PHONE_RESULT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Room Management",
+      "item": [
+        {
+          "name": "2.1 REQ_CHECK_ROOMS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"seat_limit\": 4,\n  \"game_mode\": \"classic\",\n  \"wifi_mode\": \"online\",\n  \"stake_money\": 100,\n  \"win_money\": 200,\n  \"refresh_time\": 0,\n  \"refresh_interval\": 0,\n  \"jackpot_id\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CHECK_ROOMS", "host": ["{{base_url}}"], "path": ["REQ_CHECK_ROOMS"] },
+            "description": "Find an available room matching given criteria.\nResponse: REQ_CHECK_ROOMS_RESULT"
+          }
+        },
+        {
+          "name": "2.2 REQ_CREATE_ROOM",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"username\": \"string\",\n  \"room_title\": \"string\",\n  \"seat_limit\": 4,\n  \"status\": \"open\",\n  \"jackpot_id\": \"string\",\n  \"game_mode\": \"classic\",\n  \"wifi_mode\": \"online\",\n  \"stake_money\": 100,\n  \"win_money\": 400,\n  \"refresh_time\": 0,\n  \"refresh_interval\": 0,\n  \"tournament_id\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CREATE_ROOM", "host": ["{{base_url}}"], "path": ["REQ_CREATE_ROOM"] },
+            "description": "Create a new game room.\nResponse: REQ_CREATE_ROOM_RESULT"
+          }
+        },
+        {
+          "name": "2.3 REQ_JOIN_ROOM",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomID\": 12345,\n  \"userid\": \"string\",\n  \"username\": \"string\",\n  \"photo\": \"string\",\n  \"jackpot_id\": \"string\",\n  \"stake_money\": 100\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_JOIN_ROOM", "host": ["{{base_url}}"], "path": ["REQ_JOIN_ROOM"] },
+            "description": "Join an existing room.\nResponse: REQ_ENTER_ROOM_RESULT (or REQ_JOIN_ROOM_RESULT)"
+          }
+        },
+        {
+          "name": "2.4 REQ_LEAVE_ROOM",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"username\": \"string\",\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_LEAVE_ROOM", "host": ["{{base_url}}"], "path": ["REQ_LEAVE_ROOM"] },
+            "description": "Leave the current room.\nResponse: REQ_LEAVE_ROOM_RESULT"
+          }
+        },
+        {
+          "name": "2.5 REQ_ROOM_INFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomID\": 12345\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ROOM_INFO", "host": ["{{base_url}}"], "path": ["REQ_ROOM_INFO"] },
+            "description": "Get details of a specific room.\nResponse: REQ_ROOM_INFO_RESULT"
+          }
+        },
+        {
+          "name": "2.6 REQ_ROOM_LIST",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ROOM_LIST", "host": ["{{base_url}}"], "path": ["REQ_ROOM_LIST"] },
+            "description": "Request list of all active rooms.\nResponse: REQ_ROOM_LIST_RESULT"
+          }
+        },
+        {
+          "name": "2.7 REQ_ROOMPLAYER_LENGTH",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"stake_money\": 100\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ROOMPLAYER_LENGTH", "host": ["{{base_url}}"], "path": ["REQ_ROOMPLAYER_LENGTH"] },
+            "description": "Get number of rooms and players for a given stake money.\nResponse: ROOMPLAYER_LENGTH"
+          }
+        },
+        {
+          "name": "2.8 RECONNECTED",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"username\": \"string\",\n  \"userid\": \"string\",\n  \"old_socketID\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/RECONNECTED", "host": ["{{base_url}}"], "path": ["RECONNECTED"] },
+            "description": "Reconnect to a room after disconnection.\nResponse: RECONNECT_RESULT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Gameplay",
+      "item": [
+        {
+          "name": "3.1 REQ_TURNUSER",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"username\": \"string\",\n  \"userid\": \"string\",\n  \"turnuser\": \"string\",\n  \"dice\": 6,\n  \"repeatTurn\": false,\n  \"finalPath\": false,\n  \"pawns_moved\": \"{}\",\n  \"pawns_turn_moved\": \"{}\",\n  \"myTimechance\": \"string\",\n  \"turnuserTimechance\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_TURNUSER", "host": ["{{base_url}}"], "path": ["REQ_TURNUSER"] },
+            "description": "Update pawn positions and request next turn.\nResponse: REQ_TURNUSER_RESULT"
+          }
+        },
+        {
+          "name": "3.2 REQ_ROLL_DICE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"roller\": \"string\",\n  \"dice\": 6\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ROLL_DICE", "host": ["{{base_url}}"], "path": ["REQ_ROLL_DICE"] },
+            "description": "Roll dice for current turn.\nResponse: REQ_ROLL_DICE_RESULT"
+          }
+        },
+        {
+          "name": "3.3 REQ_MOVE_TOKEN",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"status\": \"string\",\n  \"mover\": \"string\",\n  \"path\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_MOVE_TOKEN", "host": ["{{base_url}}"], "path": ["REQ_MOVE_TOKEN"] },
+            "description": "Move token on board.\nResponse: REQ_MOVE_TOKEN_RESULT"
+          }
+        },
+        {
+          "name": "3.4 REQ_TIME_UP",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_TIME_UP", "host": ["{{base_url}}"], "path": ["REQ_TIME_UP"] },
+            "description": "Notify that a player's turn time is up.\nResponse: REQ_TIME_UP_RESULT"
+          }
+        },
+        {
+          "name": "3.5 REQ_AUTO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"user\": \"string\",\n  \"auto\": true\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_AUTO", "host": ["{{base_url}}"], "path": ["REQ_AUTO"] },
+            "description": "Set auto-play mode for a player.\nResponse: REQ_AUTO_RESULT"
+          }
+        },
+        {
+          "name": "3.6 REQ_PAUSE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"outerName\": \"string\",\n  \"outerID\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_PAUSE", "host": ["{{base_url}}"], "path": ["REQ_PAUSE"] },
+            "description": "Pause the game.\nResponse: REQ_PAUSE_RESULT"
+          }
+        },
+        {
+          "name": "3.7 REQ_RESUME",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"outerName\": \"string\",\n  \"outerID\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_RESUME", "host": ["{{base_url}}"], "path": ["REQ_RESUME"] },
+            "description": "Resume the game.\nResponse: REQ_RESUME_RESULT"
+          }
+        },
+        {
+          "name": "3.8 REQ_UPDATE_PAWNDATA",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"userid\": \"string\",\n  \"pawns_moved\": \"string\",\n  \"myTimechance\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATE_PAWNDATA", "host": ["{{base_url}}"], "path": ["REQ_UPDATE_PAWNDATA"] },
+            "description": "Update pawn data for a player.\nResponse: None"
+          }
+        },
+        {
+          "name": "3.9 REQ_GET_DELAYEDTIME",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomId\": 12345\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GET_DELAYEDTIME", "host": ["{{base_url}}"], "path": ["REQ_GET_DELAYEDTIME"] },
+            "description": "Get time since last turn.\nResponse: REQ_GET_DELAYEDTIME_RESULT"
+          }
+        },
+        {
+          "name": "3.10 REQ_UPDATEPLAYERS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATEPLAYERS", "host": ["{{base_url}}"], "path": ["REQ_UPDATEPLAYERS"] },
+            "description": "Get count of players in different game modes.\nResponse: REQ_UPDATEPLAYERS_RESULT"
+          }
+        },
+        {
+          "name": "3.11 Game_Fore_End",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345\n}"
+            },
+            "url": { "raw": "{{base_url}}/Game_Fore_End", "host": ["{{base_url}}"], "path": ["Game_Fore_End"] },
+            "description": "Force end the game (room deletion).\nResponse: None"
+          }
+        },
+        {
+          "name": "3.12 PASS_TIME_RESULT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"passedtime\": 123\n}"
+            },
+            "url": { "raw": "{{base_url}}/PASS_TIME_RESULT", "host": ["{{base_url}}"], "path": ["PASS_TIME_RESULT"] },
+            "description": "Pass the total elapsed time in a room.\nResponse: None"
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Chat & User Lists",
+      "item": [
+        {
+          "name": "4.1 REQ_CHAT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345,\n  \"username\": \"string\",\n  \"message\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CHAT", "host": ["{{base_url}}"], "path": ["REQ_CHAT"] },
+            "description": "Send a chat message to the room.\nResponse: REQ_CHAT_RESULT"
+          }
+        },
+        {
+          "name": "4.2 REQ_USERLIST_ROOM",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomid\": 12345\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_USERLIST_ROOM", "host": ["{{base_url}}"], "path": ["REQ_USERLIST_ROOM"] },
+            "description": "Request list of users in a room.\nResponse: REQ_USERLIST_ROOM_RESULT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. User Profile & Wallet",
+      "item": [
+        {
+          "name": "5.1 REQ_USER_INFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_USER_INFO", "host": ["{{base_url}}"], "path": ["REQ_USER_INFO"] },
+            "description": "Get user information.\nResponse: GET_USERINFO_RESULT"
+          }
+        },
+        {
+          "name": "5.2 REQ_UPDATE_USERINFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"username\": \"string\",\n  \"updatetype\": \"BeforePlay\",\n  \"points\": \"string\",\n  \"level\": 1,\n  \"online_played\": 1,\n  \"online_won\": 1,\n  \"friend_played\": 1,\n  \"friend_won\": 1,\n  \"tokenscaptured_mine\": 1,\n  \"tokenscaptured_opponents\": 1,\n  \"wonstreaks_current\": 1,\n  \"wonstreaks_best\": 1,\n  \"winning_amount\": 100\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATE_USERINFO", "host": ["{{base_url}}"], "path": ["REQ_UPDATE_USERINFO"] },
+            "description": "Update user game stats and points.\nResponse: REQ_UPDATE_USERINFO_RESULT"
+          }
+        },
+        {
+          "name": "5.3 REQ_GET_COINS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GET_COINS", "host": ["{{base_url}}"], "path": ["REQ_GET_COINS"] },
+            "description": "Get user's points and winning amount.\nResponse: REQ_COIN_RESULT"
+          }
+        },
+        {
+          "name": "5.4 UPLOAD_USER_PHOTO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"photo_data\": \"string_base64\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/UPLOAD_USER_PHOTO", "host": ["{{base_url}}"], "path": ["UPLOAD_USER_PHOTO"] },
+            "description": "Upload user profile photo.\nResponse: UPLOAD_USER_PHOTO_RESULT"
+          }
+        },
+        {
+          "name": "5.5 UPLOAD_LIC_PHOTO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"photo_data\": \"string_base64\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/UPLOAD_LIC_PHOTO", "host": ["{{base_url}}"], "path": ["UPLOAD_LIC_PHOTO"] },
+            "description": "Upload KYC document photo.\nResponse: UPLOAD_LIC_PHOTO_RESULT"
+          }
+        },
+        {
+          "name": "5.6 REQ_KYC_INFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"document_number\": \"string\",\n  \"first_name\": \"string\",\n  \"last_name\": \"string\",\n  \"dob\": \"string\",\n  \"document_image\": \"string\",\n  \"document_type\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_KYC_INFO", "host": ["{{base_url}}"], "path": ["REQ_KYC_INFO"] },
+            "description": "Submit KYC details.\nResponse: REQ_KYC_RESULT"
+          }
+        },
+        {
+          "name": "5.7 REQ_CHECK_KYC",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CHECK_KYC", "host": ["{{base_url}}"], "path": ["REQ_CHECK_KYC"] },
+            "description": "Check KYC verification status.\nResponse: REQ_CHECK_KYC_RESULT"
+          }
+        },
+        {
+          "name": "5.8 REQ_UPI_ID",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"upi_id\": \"string\",\n  \"upi_name\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPI_ID", "host": ["{{base_url}}"], "path": ["REQ_UPI_ID"] },
+            "description": "Update UPI ID.\nResponse: REQ_UPI_RESULT"
+          }
+        },
+        {
+          "name": "5.9 REQ_BANK_INFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"acc_holder\": \"string\",\n  \"bank_name\": \"string\",\n  \"acc_num\": \"string\",\n  \"ifsc\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_BANK_INFO", "host": ["{{base_url}}"], "path": ["REQ_BANK_INFO"] },
+            "description": "Update bank account details.\nResponse: REQ_UPDATE_BANKINFO_RESULT"
+          }
+        },
+        {
+          "name": "5.10 REQ_WITHDRAW",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"method\": \"upi\",\n  \"amount\": 100,\n  \"upi_id\": \"string\",\n  \"ifsc\": \"string\",\n  \"bank_name\": \"string\",\n  \"acc_holder\": \"string\",\n  \"bank_id\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_WITHDRAW", "host": ["{{base_url}}"], "path": ["REQ_WITHDRAW"] },
+            "description": "Request withdrawal.\nResponse: REQ_WITHDRAW_RESULT"
+          }
+        },
+        {
+          "name": "5.11 REQ_WALLET_HISTORIES",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_WALLET_HISTORIES", "host": ["{{base_url}}"], "path": ["REQ_WALLET_HISTORIES"] },
+            "description": "Get transaction history.\nResponse: REQ_WALLET_HIS_RESULT"
+          }
+        },
+        {
+          "name": "5.12 REQ_ADD_DEPOSITE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": \"string\",\n  \"orderId\": \"string\",\n  \"txnId\": \"string\",\n  \"amount\": 100,\n  \"status\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ADD_DEPOSITE", "host": ["{{base_url}}"], "path": ["REQ_ADD_DEPOSITE"] },
+            "description": "Add deposit record (after payment).\nResponse: REQ_ADD_DEPOSITE_RESULT"
+          }
+        },
+        {
+          "name": "5.13 REQ_GET_SERVER_NOTICE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GET_SERVER_NOTICE", "host": ["{{base_url}}"], "path": ["REQ_GET_SERVER_NOTICE"] },
+            "description": "Get server notice message.\nResponse: REQ_GET_SERVER_NOTICE_RESULT"
+          }
+        },
+        {
+          "name": "5.14 REQ_UPDATEUSERDATA",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"points\": \"string\",\n  \"level\": 1,\n  \"quickLudoWon\": 1,\n  \"quickLudoPlayed\": 1,\n  \"online_won\": 1,\n  \"online_played\": 1,\n  \"winning_amount\": \"string\",\n  \"upi_id\": \"string\",\n  \"bank_id\": \"string\",\n  \"bank_name\": \"string\",\n  \"ifsc\": \"string\",\n  \"acc_holder\": \"string\",\n  \"used_refer_code\": \"string\",\n  \"region\": \"string\",\n  \"userphone\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATEUSERDATA", "host": ["{{base_url}}"], "path": ["REQ_UPDATEUSERDATA"] },
+            "description": "Update user data after game.\nResponse: None"
+          }
+        },
+        {
+          "name": "5.15 REQ_UPDATEREFEARNINGS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"usedrefercode\": \"string\",\n  \"referamount\": 100\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATEREFEARNINGS", "host": ["{{base_url}}"], "path": ["REQ_UPDATEREFEARNINGS"] },
+            "description": "Update referrer earnings.\nResponse: None"
+          }
+        },
+        {
+          "name": "5.16 REQ_VALIDATEREFERCODE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refercode\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_VALIDATEREFERCODE", "host": ["{{base_url}}"], "path": ["REQ_VALIDATEREFERCODE"] },
+            "description": "Validate if a referral code exists.\nResponse: REQ_VALIDATEREFERCODE_RESULT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. Game Settings & Leaderboard",
+      "item": [
+        {
+          "name": "6.1 REQ_GAME_SETTINGS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GAME_SETTINGS", "host": ["{{base_url}}"], "path": ["REQ_GAME_SETTINGS"] },
+            "description": "Get global game settings.\nResponse: REQ_GAMESETTINGS_RESULT"
+          }
+        },
+        {
+          "name": "6.2 REQ_GET_IMAGE_ADMOB",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GET_IMAGE_ADMOB", "host": ["{{base_url}}"], "path": ["REQ_GET_IMAGE_ADMOB"] },
+            "description": "Get list of ad images.\nResponse: REQ_IMAGE_LINK_RESULT"
+          }
+        },
+        {
+          "name": "6.3 REQ_GET_OFFER_AMOUNT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GET_OFFER_AMOUNT", "host": ["{{base_url}}"], "path": ["REQ_GET_OFFER_AMOUNT"] },
+            "description": "Get list of offer amounts.\nResponse: REQ_OFFER_AMOUNT_RESULT"
+          }
+        },
+        {
+          "name": "6.4 REQ_GETLEADERBOARD",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GETLEADERBOARD", "host": ["{{base_url}}"], "path": ["REQ_GETLEADERBOARD"] },
+            "description": "Get leaderboard.\nResponse: GETLEADERBOARD"
+          }
+        }
+      ]
+    },
+    {
+      "name": "7. Tournament",
+      "item": [
+        {
+          "name": "7.1 REQ_TOURNAMENT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_TOURNAMENT", "host": ["{{base_url}}"], "path": ["REQ_TOURNAMENT"] },
+            "description": "Get list of tournaments.\nResponse: REQ_TOURNAMENT_RESULT"
+          }
+        },
+        {
+          "name": "7.2 REQ_TOURNAMENT_MEMBERS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"tournament_ids\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_TOURNAMENT_MEMBERS", "host": ["{{base_url}}"], "path": ["REQ_TOURNAMENT_MEMBERS"] },
+            "description": "Get number of players currently in each tournament.\nResponse: REQ_TOURNAMENT_MEMBERS"
+          }
+        },
+        {
+          "name": "7.3 REQ_CLICK_TOURNAMENT_MEMBER",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"tournament_id\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CLICK_TOURNAMENT_MEMBER", "host": ["{{base_url}}"], "path": ["REQ_CLICK_TOURNAMENT_MEMBER"] },
+            "description": "Broadcast that a user clicked on a tournament member count.\nResponse: REQ_CLICKED_TM_MEMBER"
+          }
+        },
+        {
+          "name": "7.4 REQ_GETTWOPLAYERWINS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GETTWOPLAYERWINS", "host": ["{{base_url}}"], "path": ["REQ_GETTWOPLAYERWINS"] },
+            "description": "Get win counts for two-player and fourplayer games.\nResponse: GETTWOPLAYERWINS / GETFOURPLAYERWINS"
+          }
+        }
+      ]
+    },
+    {
+      "name": "8. Jackpot",
+      "item": [
+        {
+          "name": "8.1 REQ_JACKPOT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_JACKPOT", "host": ["{{base_url}}"], "path": ["REQ_JACKPOT"] },
+            "description": "Get list of jackpots.\nResponse: REQ_JACKPOT_RESULT"
+          }
+        },
+        {
+          "name": "8.2 REQ_JOIN_JACKPOT",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"username\": \"string\",\n  \"Entry\": 1,\n  \"JackpotID\": \"string\",\n  \"Current\": 1,\n  \"Total\": 10,\n  \"Score\": 0,\n  \"Winnings\": 100\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_JOIN_JACKPOT", "host": ["{{base_url}}"], "path": ["REQ_JOIN_JACKPOT"] },
+            "description": "Join a jackpot.\nResponse: REQ_JOIN_JACKPOT_RESULT"
+          }
+        },
+        {
+          "name": "8.3 REQ_JACKPOT_STATUS",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_JACKPOT_STATUS", "host": ["{{base_url}}"], "path": ["REQ_JACKPOT_STATUS"] },
+            "description": "Check user's jackpot participation status.\nResponse: REQ_JACKPOT_CHECK_RESULT"
+          }
+        },
+        {
+          "name": "8.4 REQ_CHECK_JACKPOTINFO",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_CHECK_JACKPOTINFO", "host": ["{{base_url}}"], "path": ["REQ_CHECK_JACKPOTINFO"] },
+            "description": "Get detailed info of user's jackpot entries.\nResponse: REQ_JACKPOT_MYINFO_RESULT"
+          }
+        },
+        {
+          "name": "8.5 REQ_UPDATE_JACKPOTLIST",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"jackpotid\": \"string\",\n  \"score\": 10,\n  \"current\": 1\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_UPDATE_JACKPOTLIST", "host": ["{{base_url}}"], "path": ["REQ_UPDATE_JACKPOTLIST"] },
+            "description": "Update user's score in a jackpot.\nResponse: REQ_UPDATE_JACKPOT_RESULT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "9. Game History",
+      "item": [
+        {
+          "name": "9.1 REQ_GAME_HIST",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userid\": \"string\",\n  \"username\": \"string\",\n  \"creater\": \"string\",\n  \"seat_limit\": 4,\n  \"gamemode\": \"classic\",\n  \"stake_money\": 100,\n  \"game_status\": \"Win\",\n  \"win_money\": 400,\n  \"tournament_id\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_GAME_HIST", "host": ["{{base_url}}"], "path": ["REQ_GAME_HIST"] },
+            "description": "Add a game history entry.\nResponse: None"
+          }
+        },
+        {
+          "name": "9.2 REQ_ADD_BOT_GAME_HIST",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"entry\": 1,\n  \"win_money\": 100,\n  \"loss_money\": 50,\n  \"game_status\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ADD_BOT_GAME_HIST", "host": ["{{base_url}}"], "path": ["REQ_ADD_BOT_GAME_HIST"] },
+            "description": "Add bot game history.\nResponse: None"
+          }
+        }
+      ]
+    },
+    {
+      "name": "10. Miscellaneous",
+      "item": [
+        {
+          "name": "10.1 REQ_ADD_PHONE",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"string\",\n  \"username\": \"string\"\n}"
+            },
+            "url": { "raw": "{{base_url}}/REQ_ADD_PHONE", "host": ["{{base_url}}"], "path": ["REQ_ADD_PHONE"] },
+            "description": "Add phone number to existing user.\nResponse: None"
+          }
+        }
+      ]
+    }
+  ]
+}
