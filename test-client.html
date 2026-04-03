@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ludu Socket.IO Tester</title>
+    <!-- Include Socket.IO matching your server version -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.1/socket.io.js"></script>
+    <style>
+        body { font-family: -apple-system, sans-serif; background: #1e1e1e; color: #ddd; padding: 20px; display: flex; gap: 20px; }
+        .panel { flex: 1; background: #2a2a2a; padding: 20px; border-radius: 8px; }
+        h2 { margin-top: 0; color: #fff; border-bottom: 1px solid #444; padding-bottom: 10px; }
+        input, select, textarea { width: 100%; padding: 10px; margin-bottom: 15px; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; box-sizing: border-box; }
+        textarea { height: 200px; font-family: monospace; resize: vertical; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; }
+        button:hover { background: #0056b3; }
+        .logs { height: 400px; overflow-y: auto; background: #111; padding: 10px; border-radius: 4px; font-family: monospace; font-size: 13px; }
+        .log-in { color: #4CAF50; }
+        .log-out { color: #2196F3; }
+        .log-sys { color: #ffeb3b; }
+        .status { padding: 5px 10px; border-radius: 4px; margin-bottom: 15px; font-weight: bold; display: inline-block;}
+        .connected { background: #4CAF50; color: white; }
+        .disconnected { background: #f44336; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="panel">
+    <h2>1. Connection</h2>
+    <div id="statusIndicator" class="status disconnected">Disconnected</div>
+    <input type="text" id="url" value="wss://luduapi.syscomatic.com">
+    <button id="connectBtn" onclick="toggleConnection()">Connect to Socket</button>
+
+    <h2 style="margin-top: 30px;">2. Send API Event</h2>
+    <select id="eventSelect" onchange="loadTemplate()">
+        <!-- Auth -->
+        <option value="REQ_LOGIN">REQ_LOGIN</option>
+        <option value="REQ_LOGOUT">REQ_LOGOUT</option>
+        <option value="REQ_REGISTER">REQ_REGISTER</option>
+        <option value="REQ_VALID_PHONE">REQ_VALID_PHONE</option>
+        
+        <!-- Room -->
+        <option value="REQ_CHECK_ROOMS">REQ_CHECK_ROOMS</option>
+        <option value="REQ_CREATE_ROOM">REQ_CREATE_ROOM</option>
+        <option value="REQ_JOIN_ROOM">REQ_JOIN_ROOM</option>
+        <option value="REQ_LEAVE_ROOM">REQ_LEAVE_ROOM</option>
+        <option value="REQ_ROOM_INFO">REQ_ROOM_INFO</option>
+        <option value="REQ_ROOM_LIST">REQ_ROOM_LIST</option>
+        
+        <!-- Gameplay -->
+        <option value="REQ_TURNUSER">REQ_TURNUSER</option>
+        <option value="REQ_ROLL_DICE">REQ_ROLL_DICE</option>
+        <option value="REQ_MOVE_TOKEN">REQ_MOVE_TOKEN</option>
+        
+        <!-- Profile / Wallet -->
+        <option value="REQ_USER_INFO">REQ_USER_INFO</option>
+        <option value="REQ_UPDATE_USERINFO">REQ_UPDATE_USERINFO</option>
+        <option value="REQ_GET_COINS">REQ_GET_COINS</option>
+        <option value="REQ_WITHDRAW">REQ_WITHDRAW</option>
+        <option value="REQ_WALLET_HISTORIES">REQ_WALLET_HISTORIES</option>
+        
+        <!-- Other -->
+        <option value="REQ_GAME_SETTINGS">REQ_GAME_SETTINGS</option>
+        <option value="REQ_GETLEADERBOARD">REQ_GETLEADERBOARD</option>
+        <option value="REQ_TOURNAMENT">REQ_TOURNAMENT</option>
+        <option value="REQ_JACKPOT">REQ_JACKPOT</option>
+    </select>
+    
+    <label>Payload (JSON):</label>
+    <textarea id="payloadText"></textarea>
+    <button onclick="sendEvent()" style="background-color: #28a745;">Send Event</button>
+</div>
+
+<div class="panel">
+    <h2>3. Real-time Response Logs</h2>
+    <div class="logs" id="logs"></div>
+    <button onclick="document.getElementById('logs').innerHTML=''" style="margin-top:10px; background:#666;">Clear Logs</button>
+</div>
+
+<script>
+    let socket = null;
+    let isConnected = false;
+
+    // Pre-filled testing templates
+    const templates = {
+        "REQ_LOGIN": {
+            "logintype": "Phone",
+            "userphone": "987654321",
+            "google_id": "test@gmail.com"
+        },
+        "REQ_LOGOUT": {
+            "userid": "test_id_here"
+        },
+        "REQ_REGISTER": {
+            "loginMode": "phone",
+            "username": "TestUser",
+            "userphone": "987654321",
+            "useremail": "test@gmail.com",
+            "userphoto": "",
+            "google_id": "",
+            "referral": ""
+        },
+        "REQ_VALID_PHONE": {
+            "phone": "987654321"
+        },
+        "REQ_CHECK_ROOMS": {
+            "seat_limit": 4,
+            "game_mode": "classic",
+            "wifi_mode": "online",
+            "stake_money": 100,
+            "win_money": 200,
+            "refresh_time": 0,
+            "refresh_interval": 0,
+            "jackpot_id": ""
+        },
+        "REQ_CREATE_ROOM": {
+            "userid": "test_user_id",
+            "username": "TestUser",
+            "room_title": "My Room",
+            "seat_limit": 4,
+            "status": "open",
+            "jackpot_id": "",
+            "game_mode": "classic",
+            "wifi_mode": "online",
+            "stake_money": 100,
+            "win_money": 400,
+            "refresh_time": 0,
+            "refresh_interval": 0,
+            "tournament_id": ""
+        },
+        "REQ_JOIN_ROOM": {
+            "roomID": 12345,
+            "userid": "test_user_id",
+            "username": "TestUser",
+            "photo": "",
+            "jackpot_id": "",
+            "stake_money": 100
+        },
+        "REQ_ROOM_LIST": {},
+        "REQ_USER_INFO": { "userid": "test_user_id" },
+        "REQ_GET_COINS": { "userid": "test_user_id" },
+        "REQ_GETLEADERBOARD": {},
+        "REQ_GAME_SETTINGS": {},
+        "REQ_TOURNAMENT": {},
+        "REQ_JACKPOT": {}
+    };
+
+    function loadTemplate() {
+        const event = document.getElementById('eventSelect').value;
+        const template = templates[event] || {};
+        document.getElementById('payloadText').value = JSON.stringify(template, null, 2);
+    }
+
+    function log(message, type) {
+        const logs = document.getElementById('logs');
+        const div = document.createElement('div');
+        div.className = "log-" + type;
+        div.innerText = `[${new Date().toLocaleTimeString()}] ${message}`;
+        logs.appendChild(div);
+        logs.scrollTop = logs.scrollHeight;
+    }
+
+    function toggleConnection() {
+        if (isConnected && socket) {
+            socket.disconnect();
+            return;
+        }
+
+        const url = document.getElementById('url').value;
+        log(`Connecting to ${url}...`, 'sys');
+        
+        socket = io(url, {
+            transports: ['websocket'],
+            upgrade: false
+        });
+
+        socket.on('connect', () => {
+            isConnected = true;
+            document.getElementById('statusIndicator').innerText = "Connected!";
+            document.getElementById('statusIndicator').className = "status connected";
+            document.getElementById('connectBtn').innerText = "Disconnect";
+            document.getElementById('connectBtn').style.background = "#f44336";
+            log(`Connected! ID: ${socket.id}`, 'sys');
+        });
+
+        socket.on('disconnect', () => {
+            isConnected = false;
+            document.getElementById('statusIndicator').innerText = "Disconnected";
+            document.getElementById('statusIndicator').className = "status disconnected";
+            document.getElementById('connectBtn').innerText = "Connect to Socket";
+            document.getElementById('connectBtn').style.background = "#007bff";
+            log(`Disconnected.`, 'sys');
+        });
+
+        // Catch ALL incoming events using a special middleware
+        const onevent = socket.onevent;
+        socket.onevent = function (packet) {
+            const args = packet.data || [];
+            log(`RECEIVED EVENT: ${args[0]}\nDATA: ${JSON.stringify(args[1], null, 2)}\n---`, 'in');
+            onevent.call(this, packet);
+        };
+    }
+
+    function sendEvent() {
+        if (!isConnected || !socket) {
+            alert("Please connect first!");
+            return;
+        }
+
+        const eventName = document.getElementById('eventSelect').value;
+        let payload = {};
+        
+        // Parse payload
+        const rawJson = document.getElementById('payloadText').value.trim();
+        if(rawJson) {
+            try {
+                payload = JSON.parse(rawJson);
+            } catch (e) {
+                alert("Invalid JSON format in the payload text box!");
+                return;
+            }
+        }
+
+        log(`SENT EVENT: ${eventName}\nDATA: ${JSON.stringify(payload, null, 2)}\n---`, 'out');
+        socket.emit(eventName, payload);
+    }
+
+    // Load initial
+    loadTemplate();
+</script>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ services:
       - "16000:16000"
     environment:
       - PORT=16000
-      - MONGO_URL=mongodb://mongo:27017/luduBackend
+      - MONGO_URL=mongodb://luduadmin:SecretLuduPass2026@mongo:27017/luduBackend?authSource=admin
       # Add other environment variables here depending on your app
     depends_on:
       - mongo
@@ -20,6 +20,9 @@ services:
     image: mongo:5.0
     container_name: ludu_mongo
     restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=luduadmin
+      - MONGO_INITDB_ROOT_PASSWORD=SecretLuduPass2026
     ports:
       - "27017:27017" # Only expose if you need external access, otherwise remove this mapping
     volumes:
